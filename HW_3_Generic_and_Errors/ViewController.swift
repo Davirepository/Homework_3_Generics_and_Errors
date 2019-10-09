@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         
         let stored3 = Persistant<String>()
 //        stored3.write("check it", forKey: "done")
-        try? stored.reade("done")
+        try? stored3.reade("done")
         
         try? stored.reade("ok")
     }
